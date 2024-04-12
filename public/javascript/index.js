@@ -1,0 +1,34 @@
+"use strict";
+function Hanoi(quantDisk) {
+    move(0, 2);
+    move(0, 1);
+    move(2, 1);
+    move(0, 2);
+    move(1, 0);
+    move(1, 2);
+    move(0, 2);
+    move(0, 1);
+    move(2, 1);
+    move(2, 0);
+    move(1, 0);
+    move(2, 1);
+    move(0, 2);
+    move(0, 1);
+    move(2, 1);
+    move(0, 2);
+    move(1, 0);
+    move(1, 2);
+    move(0, 2);
+    move(1, 0);
+    move(2, 1);
+    move(2, 0);
+    move(1, 0);
+    move(1, 2);
+    move(0, 2);
+    move(0, 1);
+    move(2, 1);
+    move(0, 2);
+    move(1, 0);
+    move(1, 2);
+    move(0, 2);
+}
